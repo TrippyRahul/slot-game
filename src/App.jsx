@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "buildUnity/Builds.loader.js",
-    dataUrl: "buildUnity/Builds.data",
-    frameworkUrl: "buildUnity/Builds.framework.js",
-    codeUrl: "buildUnity/Builds.wasm",
+    loaderUrl: "buildUnity/GoogleExtensionBuild.loader.js",
+    dataUrl: "buildUnity/GoogleExtensionBuild.data.gz",
+    frameworkUrl: "buildUnity/GoogleExtensionBuild.framework.js.gz",
+    codeUrl: "buildUnity/Builds.wasm.gz",
   });
 
   return <Unity unityProvider={unityProvider} />;
