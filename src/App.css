@@ -18,23 +18,12 @@
   );
 }
 .container {
-  min-width: 80%;
-  height: 80%;
+  min-width: 80% !important;
+  height: 80% !important;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 
-#react-unity-webgl-canvas-2 {
-  /* height: 80vh; */
-  width: 90%;
-  height: 100%;
-  overflow: hidden;
-}
-
-/* @media screen and (max-width: 768px) {
-  .container {
-    height: 23%;
-  }
-} */

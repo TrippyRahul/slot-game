@@ -13,7 +13,10 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <Unity unityProvider={unityProvider} />
+        <Unity
+          unityProvider={unityProvider}
+          style={{ width: "980px", height: "1000px" }}
+        />
       </div>
     </div>
   );
