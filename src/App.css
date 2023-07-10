@@ -1,5 +1,40 @@
-*,html{
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(72, 50, 133);
+  background: linear-gradient(
+    180deg,
+    rgba(72, 50, 133, 1) 0%,
+    rgba(0, 0, 0, 1) 50%
+  );
+}
+.container {
+  min-width: 80%;
+  height: 80%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#react-unity-webgl-canvas-2 {
+  /* height: 80vh; */
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* @media screen and (max-width: 768px) {
+  .container {
+    height: 23%;
+  }
+} */
