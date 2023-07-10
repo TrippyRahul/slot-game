@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "buildUnity/SlotGames.loader.js",
-    dataUrl: "buildUnity/SlotGames.data.unityweb",
-    frameworkUrl: "buildUnity/SlotGames.framework.js.unityweb",
-    codeUrl: "buildUnity/SlotGames.wasm.unityweb",
+    loaderUrl: "buildUnity/Game1.loader.js",
+    dataUrl: "buildUnity/Game1.data.unityweb",
+    frameworkUrl: "buildUnity/Game1.framework.js.unityweb",
+    codeUrl: "buildUnity/Game1.wasm.unityweb",
   });
 
   return <Unity unityProvider={unityProvider} />;
