@@ -1,6 +1,8 @@
 import React from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import "./App.css";
+import KenoGame from "./components/KenoGame";
+import SlotGame from "./components/SlotGame";
 
 function App() {
   const { unityProvider } = useUnityContext({
@@ -11,14 +13,12 @@ function App() {
   });
 
   return (
-    <div className="app">
-      <div className="container">
-        <Unity
-          unityProvider={unityProvider}
-          style={{ width: "980px", height: "1000px" }}
-        />
-      </div>
-    </div>
+    <>
+      <SlotGame />
+
+    
+      <KenoGame />
+    </>
   );
 }
 
