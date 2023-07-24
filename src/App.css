@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 
-.game1 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.bg {
   background: rgb(72, 50, 133);
   background: linear-gradient(
     180deg,
@@ -18,7 +12,16 @@
     rgba(0, 0, 0, 1) 50%
   );
 }
-.game1-container {
+
+.game {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.game-container {
   min-width: 80% !important;
   height: 80% !important;
   overflow: hidden;
@@ -28,7 +31,11 @@
   /* border: 1px solid red; */
 }
 
-h2{
+h2 {
   color: white;
   font-size: 50px;
+}
+
+h2 span{
+  font-size: 40px;
 }

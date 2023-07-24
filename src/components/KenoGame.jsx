@@ -9,9 +9,9 @@ const KenoGame = () => {
     codeUrl: "kenoBuildUnity/Kenogames.wasm.unityweb",
   });
   return (
-    <div className="game1">
-      <h2>Keno Game (Prototype 1)</h2>
-      <div className="game1-container">
+    <div className="game">
+      <h2>Keno Game <span> : Prototype 1</span></h2>
+      <div className="game-container">
         <Unity
           unityProvider={unityProvider}
           style={{ width: "980px", height: "1000px" }}

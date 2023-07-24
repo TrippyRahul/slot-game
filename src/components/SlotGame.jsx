@@ -10,10 +10,10 @@ const SlotGame = () => {
   });
 
   return (
-    <div className="game1">
-      <h2>Slot Game (Prototype 1)</h2>
+    <div className="game">
+      <h2>Slot Game <span> : Prototype 1</span></h2>
 
-      <div className="game1-container">
+      <div className="game-container">
         <Unity
           unityProvider={unityProvider}
           style={{ width: "980px", height: "1000px" }}

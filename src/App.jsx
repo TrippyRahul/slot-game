@@ -3,6 +3,7 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 import "./App.css";
 import KenoGame from "./components/KenoGame";
 import SlotGame from "./components/SlotGame";
+import DinoKenoGame from "./components/DinoKenoGame";
 
 function App() {
   const { unityProvider } = useUnityContext({
@@ -13,12 +14,11 @@ function App() {
   });
 
   return (
-    <>
+    <div className="bg">
       <SlotGame />
-
-    
       <KenoGame />
-    </>
+      <DinoKenoGame />
+    </div>
   );
 }
 
