@@ -59,7 +59,9 @@ h2 span {
   font-size: 4vw;
 }
 
+#react-unity-webgl-canvas-1,
 #react-unity-webgl-canvas-2,
+#react-unity-webgl-canvas-3,
 #react-unity-webgl-canvas-4,
 #react-unity-webgl-canvas-6 {
   width: 70vw !important;
@@ -72,7 +74,9 @@ h2 span {
     padding: 10rem 0rem;
   }
 
+  #react-unity-webgl-canvas-1,
   #react-unity-webgl-canvas-2,
+  #react-unity-webgl-canvas-3,
   #react-unity-webgl-canvas-4,
   #react-unity-webgl-canvas-6 {
     width: 95vw !important;
