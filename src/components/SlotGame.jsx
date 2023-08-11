@@ -12,7 +12,7 @@ const SlotGame = () => {
   return (
     <div className="game">
       <h2>
-        Slot Game <span> : Prototype 1</span>
+        Slot Game <span> : Prototype one</span>
       </h2>
 
       <div className="game-container">
