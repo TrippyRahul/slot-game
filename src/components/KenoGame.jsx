@@ -10,12 +10,11 @@ const KenoGame = () => {
   });
   return (
     <div className="game">
-      <h2>Keno Game <span> : Prototype 1</span></h2>
+      <h2>
+        Keno Game <span> : Prototype 1</span>
+      </h2>
       <div className="game-container">
-        <Unity
-          unityProvider={unityProvider}
-          style={{ width: "980px", height: "1000px" }}
-        />
+        <Unity unityProvider={unityProvider} />
       </div>
     </div>
   );

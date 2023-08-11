@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%; /* 8px */
+  }
+}
+
+/* Font size for screens that are 480px wide or less */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%; /* 6.4px */
+  }
+}
+
 .bg {
   background: rgb(72, 50, 133);
   background: linear-gradient(
@@ -21,21 +38,43 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .game-container {
-  min-width: 80% !important;
-  height: 80% !important;
+  /* min-width: 90% !important;
+  height: 80% !important; */
+
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 
 h2 {
   color: white;
-  font-size: 50px;
+  font-size: 5vw;
+  margin-bottom: 2rem;
 }
 
-h2 span{
-  font-size: 40px;
+h2 span {
+  font-size: 4vw;
+}
+
+#react-unity-webgl-canvas-2,
+#react-unity-webgl-canvas-4,
+#react-unity-webgl-canvas-6 {
+  width: 70vw !important;
+  position: relative;
+}
+
+@media only screen and (max-width: 380px) {
+  .game {
+    height: auto;
+    padding: 10rem 0rem;
+  }
+
+  #react-unity-webgl-canvas-2,
+  #react-unity-webgl-canvas-4,
+  #react-unity-webgl-canvas-6 {
+    width: 95vw !important;
+  }
 }
